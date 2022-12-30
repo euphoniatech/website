@@ -13,6 +13,9 @@ export default function Home() {
       <main>
         <Navbar />
         <section className="xl:bg-[url('../public/static/images/hero-section-background.svg')] bg-contain bg-no-repeat h-screen w-full"></section>
+        <section className="text-center font-heading text-4xl m-16">
+          <h1>Services</h1>
+        </section>
       </main>
     </>
   );
