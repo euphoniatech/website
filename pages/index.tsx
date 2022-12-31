@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import ServiceCard from "../components/ServiceCard";
 
 export default function Home() {
   return (
@@ -27,8 +28,16 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="text-center font-heading text-4xl m-16">
-          <h1>Services</h1>
+        <section>
+          <h1 className="text-center font-heading font-bold text-4xl m-16">
+            Services
+          </h1>
+          <div className="flex flex-wrap items-start justify-evenly gap-8 m-8">
+            <ServiceCard text="Web Development" />
+            <ServiceCard text="App Development" />
+            <ServiceCard text="Graphic Design" />
+            <ServiceCard text="Digital Marketing" />
+          </div>
         </section>
       </main>
     </>
