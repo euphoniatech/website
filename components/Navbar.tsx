@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav className="w-full flex items-center justify-between fixed my-10 px-[4%]">
-      <div className="text-white text-3xl font-heading font-bold">
+      <div className="text-white text-3xl font-montserrat font-bold">
         EUPHONIA TECH
       </div>
       <div className="font-poppins flex-grow">
