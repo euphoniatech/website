@@ -5,7 +5,7 @@ import HeroImage from "../public/static/images/hero-section-image.svg";
 
 export const Hero = () => {
   return (
-    <section className="text-white bg-gradient-to-b from-primary to-primary-lighter flex items-center justify-around h-screen w-full">
+    <section className="relative text-white bg-gradient-to-b from-primary to-primary-lighter flex items-center justify-around h-screen w-full">
       <Image src={HeroImage} alt="Hero Image" className="w-[50%]" />
       <div className="w-[25%] text-right mx-12">
         <h1 className="font-montserrat font-bold text-6xl">TITLE</h1>
@@ -20,7 +20,7 @@ export const Hero = () => {
           CLICK
         </button>
       </div>
-      <SectionDivider />
+      <SectionDivider color="white" />
     </section>
   );
 };
