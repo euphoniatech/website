@@ -10,7 +10,13 @@ module.exports = {
       poppins: "Poppins",
     },
 
-    extend: {},
+    extend: {
+      colors: {
+        primary: { lighter: "#4D5DC7", DEFAULT: "#333267" },
+        secondary: "#4D7DF8",
+        accent: "#E4DD20",
+      },
+    },
   },
   plugins: [],
 };
